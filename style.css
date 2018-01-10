@@ -103,10 +103,16 @@ span.indent {
     margin-top: var(--space-lg);
   }
 }
-
 .Site-content--full {
   padding: 0;
 }
 .Site-content--full::after {
   content: none;
+}
+.oldXp {
+  text-decoration: line-through;
+  color: #A9A9A9;
+}
+.oldXp a, .oldXp a:visited {
+  color: #A9A9A9;
 }
