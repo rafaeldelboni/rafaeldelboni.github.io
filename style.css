@@ -74,6 +74,9 @@ span.indent {
   font-weight: 400;
   padding: 12px 0;
 }
+.column {
+  float: left;
+}
 .Site {
   display: flex;
   min-height: 100vh;
