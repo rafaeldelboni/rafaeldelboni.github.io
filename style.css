@@ -49,7 +49,10 @@ ul {
   padding-left: 1em;
 }
 li {
-  margin: 0 0 .8em 0;
+  margin: 0 0 .5em 0;
+}
+li.small-margin {
+  margin: 0 0 .1em 0;
 }
 footer {
   font-size: 3em;
@@ -155,10 +158,7 @@ h2.margin-top-2 {
   }
 }
 @page {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0.25cm;
-  margin-right: 1.85cm;
+  margin: 0 1.85cm 0 0.25cm;
 }
 @media print {
   html, body {
