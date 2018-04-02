@@ -77,12 +77,6 @@ span.indent {
   padding-left: 25%;
   padding-right: 25%;
 }
-@media (max-width: 1280px) {
-    .resume {
-      padding-left: 11%;
-      padding-right: 11%;
-    }
-}
 .center {
   text-align: center;
 }
@@ -147,6 +141,18 @@ span.indent {
 }
 h2.margin-top-2 {
   margin-top: 2em;
+}
+@media (max-width: 1280px) {
+    .resume {
+      padding-left: 11%;
+      padding-right: 11%;
+    }
+}
+@media (max-width: 512px) {
+  .justified {
+    text-align: left;
+    text-justify: none;
+  }
 }
 @page {
   margin-top: 0px;
