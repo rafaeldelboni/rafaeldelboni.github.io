@@ -24,6 +24,9 @@ a.dark:visited, a.dark {
 a.light:visited, a.light {
   color: #363636;
 }
+a {
+  color: inherit;
+}
 blockquote {
   margin: 0.25rem auto;
 }
@@ -41,6 +44,12 @@ h3 {
   margin: 0 auto;
   font-size: 2rem;
   font-weight: 400;
+}
+ul {
+  padding-left: 1em;
+}
+li {
+  margin: 0 0 .8em 0;
 }
 footer {
   font-size: 3em;
@@ -64,8 +73,25 @@ span.indent {
 .blade.light {
   background-color: #f5f5f5;
 }
+.resume {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+@media (max-width: 1280px) {
+    .resume {
+      padding-left: 11%;
+      padding-right: 11%;
+    }
+}
+.center {
+  text-align: center;
+}
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .container {
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   background: #fff;
 }
@@ -118,4 +144,35 @@ span.indent {
 }
 .oldXp a, .oldXp a:visited {
   color: #A9A9A9;
+}
+h2.margin-top-2 {
+  margin-top: 2em;
+}
+@page {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0.25cm;
+  margin-right: 1.85cm;
+}
+@media print {
+  html, body {
+    overflow: visible !important;
+    width: 49em;
+    height: auto;
+    font-size: 12px;
+    margin: 1.6cm 1.4cm 1.4cm 1.4cm;
+  }
+  .Site, .Site-content, .Site-content--full {
+    display: block;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .resume { 
+    margin: 0;
+    padding: 0;
+  }
+  .force-page-break {
+    margin-top: 1.6cm;
+    page-break-before: always;
+  }
 }
