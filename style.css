@@ -66,7 +66,7 @@ span.indent {
 .blade {
   justify-content: left;
   align-items: center;
-  padding: 2% 11% 2.5% 11%;
+  padding: 1.5% 11% 2% 11%;
   color: #363636;
 }
 .blade.dark {
