@@ -142,6 +142,9 @@ span.indent {
 .oldXp a, .oldXp a:visited {
   color: #A9A9A9;
 }
+h2.margin-top-1-8 {
+  margin-top: 1.8em;
+}
 h2.margin-top-2 {
   margin-top: 2em;
 }
@@ -158,7 +161,7 @@ h2.margin-top-2 {
   }
 }
 @page {
-  margin: 0 1.85cm 0 0.25cm;
+  margin: 0 0.50cm 0 0.25cm;
 }
 @media print {
   html, body {
