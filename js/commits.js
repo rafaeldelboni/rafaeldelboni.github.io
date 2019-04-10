@@ -30,6 +30,4 @@ function loadCommits () {
     });
 };
 
-window.onload = function() {
-  loadCommits();
-};
+loadCommits();
