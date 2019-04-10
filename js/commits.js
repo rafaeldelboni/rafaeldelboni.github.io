@@ -20,9 +20,9 @@ function loadCommits () {
         data.test +
         ' tests, ' +
         data.style +
-        ' styling and ' +
+        ' stylings and ' +
         data.other +
-        ' random stuff';
+        ' random stuffs';
     })
     .catch(function(error) {
       div.innerHTML = 'error';
