@@ -17,6 +17,8 @@ function loadCommits () {
         ' refactorings, ' +
         data.chore +
         ' chores, ' +
+        data.merge +
+        ' merges, ' +
         data.test +
         ' tests, ' +
         data.style +
