@@ -1,6 +1,6 @@
 # [rafael.delboni.cc](http://rafael.delboni.cc/)
 
-My personal landing page.
+My personal landing page
 
 ## License
 
