@@ -97,9 +97,6 @@ span.indent {
   font-weight: 400;
   padding: 12px 0;
 }
-.column {
-  float: left;
-}
 .Site {
   display: flex;
   min-height: 100vh;
@@ -148,6 +145,18 @@ h2.margin-top-1-8 {
 h2.margin-top-2 {
   margin-top: 2em;
 }
+.logo {
+  width: 90px
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-item {
+  padding: 0.25em;
+  text-align: left;
+}
 @media (max-width: 1280px) {
     .resume {
       padding-left: 11%;
@@ -158,6 +167,9 @@ h2.margin-top-2 {
   .justified {
     text-align: left;
     text-justify: none;
+  }
+  .logo {
+    width: 75px
   }
 }
 @page {
