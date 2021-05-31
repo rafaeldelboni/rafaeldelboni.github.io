@@ -3,5 +3,5 @@
 My personal landing page
 
 ## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+This is free and unencumbered software released into the public domain
+For more information, please refer to <http://unlicense.org/>
