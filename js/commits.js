@@ -1,7 +1,7 @@
 var div = document.getElementById('commits');
 
 function loadCommits () {
-  fetch("http://gh-commits-category.herokuapp.com/api/categorize-commits/rafaeldelboni/2017", {
+  fetch("https://gh-commits-category.herokuapp.com/api/categorize-commits/rafaeldelboni/2017", {
     mode: 'cors',
     headers: { 'Access-Control-Allow-Origin':'*' }
   })
