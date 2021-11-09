@@ -1,0 +1,8 @@
+{:pages {"home" {:page/name "home", :page/path "pages/home.md"}
+         "about" {:page/name "about", :page/path "pages/about.md"}
+         "resume" {:page/name "resume", :page/path "pages/resume.md", :page/hidden true}
+         "words" {:page/name "words", :page/path "pages/words.md", :page/hidden true}}
+
+ :posts {"bein-an-invisible-content-producer" {:post/name "Bein an invisible content producer", :post/description "Thoughts about creating content on internet", :post/timestamp 1636491873033, :post/path "posts/bein-an-invisible-content-producer.md", :post/tags #{"content-creation" "thoughts"}}}
+
+ :tags {"markdown" {:tag/name "Markdown Stuff"}}}
