@@ -35,7 +35,11 @@
      [app-mount "Loading..."]
      (for [src scripts]
        [:script {:src src}])
-     [:script {:src main-src}]]]))
+     [:script {:src main-src}]
+     [:script
+      {:src "https://www.googletagmanager.com/gtag/js?id=UA-105764648-1",
+       :async "async"}]
+     [:script "\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-105764648-1');\n"]]]))
 
 (defn conform-options [build-state options]
   (merge {:path      (string/replace (output-dir build-state)
