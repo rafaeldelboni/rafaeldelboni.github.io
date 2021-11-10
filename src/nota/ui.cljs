@@ -33,7 +33,8 @@
      (dom/nav {:classes ["nota-nav"]}
               (dom/div {:classes ["nota-btn--source" "nota-top-align"]}
                        (ui.icons/logo {:theme theme}))
-              (dom/button {:classes ["nota-btn" "nota-btn--theme"]
+              (dom/button {:alt "toggle theme"
+                           :classes ["nota-btn" "nota-btn--theme"]
                            :onClick (toggle-theme theme change-theme)}
                           (if (= theme "dark")
                             (ui.icons/sun-icon {:width 25 :height 25})
@@ -50,7 +51,9 @@
   (dom/footer
    (dom/div
     (dom/hr)
-    (dom/span "© 2021 built using ")
+    (dom/span "© 2021 ")
+    (dom/a {:href "https://github.com/rafaeldelboni/rafaeldelboni.github.io"} "built")
+    (dom/span " using ")
     (dom/a {:href "https://github.com/rafaeldelboni/nota"} "nota"))))
 
 (def footer (comp/factory Footer))
