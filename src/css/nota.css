@@ -266,9 +266,13 @@ label, legend, fieldset {
   margin-block-end: 0;
 }
 
-.nota-top-align {
+.nota-logo {
   vertical-align: top;
   margin-bottom: 0.5rem;
+  border-bottom: none;
+}
+.nota-logo:hover {
+  border-bottom: none;
 }
 
 .post-title {

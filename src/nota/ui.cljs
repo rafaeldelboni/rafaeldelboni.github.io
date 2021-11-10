@@ -31,8 +31,9 @@
   (let [[theme change-theme] (hooks/use-state "dark")]
     (dom/header
      (dom/nav {:classes ["nota-nav"]}
-              (dom/div {:classes ["nota-btn--source" "nota-top-align"]}
-                       (ui.icons/logo {:theme theme}))
+              (dom/a {:href "/"
+                      :classes ["nota-btn--source" "nota-logo"]}
+                     (ui.icons/logo {:theme theme}))
               (dom/button {:alt "toggle theme"
                            :classes ["nota-btn" "nota-btn--theme"]
                            :onClick (toggle-theme theme change-theme)}
