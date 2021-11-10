@@ -42,27 +42,27 @@ rafael@delboni.cc
 
 **PROFESSIONAL EXPERIENCE**
 ---------------------------
-* **180s** - Software Engineer - May/2021 to (current)  
+* **180s - Software Engineer - May/2021 to (current)**  
   Horizontally scalable micro-services written mostly in Clojure leveraging upon functional programming techniques and hexagonal architecture;  
   High throughput jobs and inter-service communication using Kafka;  
   Storing data in CruxDB & Datomic and DynamoDB;  
   Monitoring and observability and running as much as possible in Kubernetes;  
   Continuous Integration and Deployment into AWS;
 
-* **Nubank** - Software Engineer - May/2019 to May/2021  
+* **Nubank - Software Engineer - May/2019 to May/2021**  
   Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
   High throughput jobs and inter-service communication using Kafka;  
   Storing data in Datomic and DynamoDB;  
   Monitoring and observability with Prometheus and running as much as possible in Kubernetes;  
   Continuous Integration and Deployment into AWS;
 
-* **Lambda3** - Full-Stack Developer - Jun/2018 to May/2019  
+* **Lambda3 - Full-Stack Developer - Jun/2018 to May/2019**  
   Market leader company using Agile development and SCRUM methodology;  
   Development and support of asynchronous systems for processing message queues used by SMS and payment services;  
   Techs: .Net/Asp.Net Core, Mysql Database + Entity, RabbitMQ;  
   Unit test and integration: XUnit, Moq and FluentAssertions;  
 
-* **Deskbookers (The Netherlands)** - Full-Stack Developer - May/2017 to Jun/2018  
+* **Deskbookers (The Netherlands) - Full-Stack Developer - May/2017 to Jun/2018**  
   Agile environment in a European market leader company  
   Development and support an e-commerce experience for booking meeting rooms used in many European countries;  
   Development and support for administrative back-office system for meeting rooms venues;  
@@ -70,7 +70,7 @@ rafael@delboni.cc
   Frontend: React, Redux, Webpack, Javascript ES6 and Jquery;  
   Unit test and integration: Jest and Enzime;  
 
-* **Lambda3** - Full-Stack Developer - August/2016 to May/2017  
+* **Lambda3 - Full-Stack Developer - August/2016 to May/2017**  
   Market leader company using Agile development and SCRUM methodology;  
   Development and support for administrative and financial systems;  
   Backend: .Net/Asp.Net Core, MSSQL Database + NHibernate, CI/CD process using VSTS and Azure;  
@@ -78,7 +78,7 @@ rafael@delboni.cc
   Unit test and integration: XUnit, Moq and FluentAssertions;  
   Acceptance tests: NodeJs, Chimp, Mocha, Chai and WebDriverIO.  
 
-* **Itaú Unibanco** - System Analyst - October/2011 to August/2016  
+* **Itaú Unibanco - System Analyst - October/2011 to August/2016**  
   Expertise in developing and maintaining Private Banking systems;  
   Development of tools to interact Business Intelligence with account management;  
   Developing and maintaining systems to support the bankers from Itaú Unibanco’s Private Banking;  
@@ -86,7 +86,7 @@ rafael@delboni.cc
   Development of web applications to process internal back office data;  
   Deal with international projects (Swiss and Miami);  
 
-* **Canon do Brasil** - Solution Analyst - February/2007 to October/2011  
+* **Canon do Brasil - Solution Analyst - February/2007 to October/2011**  
   Development of management reports in tools such as .Net Web Development with Reporting Services and through access to databases MSSQL 2000 to 2008;  
   Responsible for implementation, customization and training systems in Canon's customers;  
   Responsible for communication channel in English with 3rd level support Canon Latin America located in Miami;  
