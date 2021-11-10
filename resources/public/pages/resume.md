@@ -10,11 +10,11 @@ rafael@delboni.cc
 ------------------------
 * Ten years experience of development and software related projects.
 * Experience with Agile development and Scrum practices: pair programming, test driven development, continuous integration and retrospection.
-* Mapping and definition of functional processes directly with customers.
-* Skills: Clojure, Rust, NodeJs, Javascript ES6/7, C#, .NET Core, ASP.NET Core, PHP, React and Redux.
-* Databases: Datomic, MySQL, Microsoft SQL Server (MSSQL), PostgresSQL, SQLite, MongoDB, Redis and a variety of ORM's like Knex and Nhibernate.
-* Development tools: GIT, VIM, Tmux, Docker, VSTS, Microsoft Visual Studio and Android Studio.
-* Test: Midje, Jest, Chimp, Mocha, Chai, WebDriverIO, XUnit, Moq and FluentAssertions.
+* Mapping and definition of functional processes directly with customers and partners.
+* Skills: Clojure, Fennel, C/Cpp, Lua, Rust, NodeJs, Javascript/Typescript, C# and PHP.
+* Databases: Datomic, XTDB, MySQL, Microsoft SQL Server (MSSQL), PostgresSQL, SQLite, MongoDB, Redis and a variety of ORM's like Knex and Nhibernate.
+* Development tools: GIT, VIM, Tmux, Docker, VSTS, Kubernetes, Github Actions, Microsoft Visual Studio and Android Studio.
+* Test: State-flow, Midje, Jest, Chimp, Mocha, Chai, WebDriverIO, XUnit, Moq and FluentAssertions.
 
 **PERSONAL PROJECTS**
 ---------------------
