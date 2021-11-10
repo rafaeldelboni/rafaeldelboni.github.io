@@ -19,15 +19,15 @@ rafael@delboni.cc
 **PERSONAL PROJECTS**
 ---------------------
 * **[6502 Emulator](https://github.com/nopsteam/6502)** A 6502 Emulator written in pure c _[source](https://github.com/nopsteam/6502)_
-* **[Graphmosphere](https://twitter.com/graphmosphere)** A Twitter bot that create geometric pictures and gifs from static noises _[source](https://github.com/RafaelDelboni/Graphmosphere)_
-* **Super Dice Roll** _[Discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[Telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_
 * **[Água Consciente](https://play.google.com/store/apps/details?id=alphadelete.aguaconsciente)** Android App to calculate water volume spent based on time _[source](https://github.com/AlphaDelete/AguaConsciente)_
+* **[Graphmosphere](https://twitter.com/graphmosphere)** A Twitter bot that create geometric pictures and gifs from static noises _[source](https://github.com/RafaelDelboni/Graphmosphere)_
 * **[KoaJS Api Startup Kit](https://github.com/RafaelDelboni/koa-api-startup-kit)** An well tested KoaJS user login api for bootstraping projects _[source](https://github.com/RafaelDelboni/koa-api-startup-kit)_
+* **[Microservice Boilerplate](https://github.com/parenthesin/microservice-boilerplate)** Clojure Microservice Boilerplate: Components, Reitit, Pedestal, Schema, Postgresql and tests
+* **[NVIM as Clojure IDE with Fennel](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/)** Basic config to transform your NVIM in a powerful Clojure IDE using Fennel, clojure-lsp and Conjure.
+* **[Nota](rafael.delboni.cc/nota/)** Static Markdown blog/site using Fulcro & Pathom with no backend _[source](https://github.com/rafaeldelboni/nota)_
 * **[Phaser Grave](http://phaser-grave.herokuapp.com/)** A PhaserJS clone of the game Grave _[source](https://github.com/RafaelDelboni/phaser-grave)_
 * **[Semantic Messages Api](http://gh-commits-category.herokuapp.com/)** Api that consolidates semantic commit messages in github per user _[source](https://github.com/rafaeldelboni/gh-commits-category)_
-* **[Nota](rafael.delboni.cc/nota/)** Static Markdown blog/site using Fulcro & Pathom with no backend _[source](https://github.com/rafaeldelboni/nota)_
-* **[NVIM as Clojure IDE with Fennel](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/)** Basic config to transform your NVIM in a powerful Clojure IDE using Fennel, clojure-lsp and Conjure.
-* **[Microservice Boilerplate](https://github.com/parenthesin/microservice-boilerplate)** Clojure Microservice Boilerplate: Components, Reitit, Pedestal, Schema, Postgresql and tests
+* **Super Dice Roll** _[Discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[Telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_
 
 **ACADEMIC BACKGROUND**
 -----------------------

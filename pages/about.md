@@ -23,15 +23,15 @@
 ### projects
 ---
 * **[6502 emulator](https://github.com/nopsteam/6502)** a 6502 emulator written in pure c  
-* **[graphmosphere](https://twitter.com/graphmosphere)** a twitter bot that create geometric pictures and gifs from static noises _[source](https://github.com/rafaeldelboni/Graphmosphere)_  
-* **super dice roll** _[discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_  
 * **[água consciente](https://play.google.com/store/apps/details?id=alphadelete.aguaconsciente)** android app to calculate water volume spent based on time _[source](https://github.com/AlphaDelete/AguaConsciente)_  
-* **[koajs api startup kit](https://github.com/rafaeldelboni/koa-api-startup-kit)** an well tested koajs user login api for bootstraping projects _[source](https://github.com/rafaeldelboni/koa-api-startup-kit)_  
-* **[phaser grave](http://phaser-grave.herokuapp.com/)** a phaserjs clone of the game grave _[source](https://github.com/rafaeldelboni/phaser-grave)_  
 * **[gh-commits-category](http://gh-commits-category.herokuapp.com/)** api that consolidates semantic commit messages in github per user _[source](https://github.com/rafaeldelboni/gh-commits-category)_  
+* **[graphmosphere](https://twitter.com/graphmosphere)** a twitter bot that create geometric pictures and gifs from static noises _[source](https://github.com/rafaeldelboni/Graphmosphere)_  
+* **[koajs api startup kit](https://github.com/rafaeldelboni/koa-api-startup-kit)** an well tested koajs user login api for bootstraping projects _[source](https://github.com/rafaeldelboni/koa-api-startup-kit)_  
+* **[microservice-boilerplate](https://github.com/parenthesin/microservice-boilerplate)** clojure microservice boilerplate: components, reitit, pedestal, schema, postgresql and tests  
 * **[nota](rafael.delboni.cc/nota/)** static markdown blog/site using fulcro & pathom with no backend _[source](https://github.com/rafaeldelboni/nota)_  
 * **[nvim-fennel-lsp-conjure-as-clojure-ide](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/)** basic config to transform your nvim in a powerful clojure ide using fennel, clojure-lsp and conjure  
-* **[microservice-boilerplate](https://github.com/parenthesin/microservice-boilerplate)** clojure microservice boilerplate: components, reitit, pedestal, schema, postgresql and tests  
+* **[phaser grave](http://phaser-grave.herokuapp.com/)** a phaserjs clone of the game grave _[source](https://github.com/rafaeldelboni/phaser-grave)_  
+* **super dice roll** _[discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_  
 
 ### podcasts
 **link**                                                                                                                        | **date**
