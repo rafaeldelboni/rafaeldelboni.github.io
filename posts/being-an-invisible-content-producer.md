@@ -1,4 +1,4 @@
-# Bein an invisible content producer
+# Being an invisible content producer
 
 ### 3 minutes to read  
 
