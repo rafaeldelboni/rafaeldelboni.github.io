@@ -24,6 +24,7 @@
   (html
    [:html {:lang lang}
     [:head
+     [:script "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NKVPQMM');"]
      [:title title]
      [:meta {:charset "utf-8"}]
      [:meta {:http-equiv "x-ua-compatible" :content "ie=edge"}]
@@ -34,14 +35,17 @@
                :href href
                :SameSite same-site}])]
     [:body
+     [:noscript
+      [:iframe
+       {:style "display:none;visibility:hidden",
+        :width "0",
+        :height "0",
+        :src
+        "https://www.googletagmanager.com/ns.html?id=GTM-NKVPQMM"}]]
      [app-mount "Loading..."]
      (for [src scripts]
        [:script {:src src}])
-     [:script {:src main-src}]
-     [:script
-      {:src "https://www.googletagmanager.com/gtag/js?id=UA-105764648-1",
-       :async "async"}]
-     [:script "\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-105764648-1');\n"]]]))
+     [:script {:src main-src}]]]))
 
 (defn conform-options [build-state options]
   (merge {:path      (string/replace (output-dir build-state)
