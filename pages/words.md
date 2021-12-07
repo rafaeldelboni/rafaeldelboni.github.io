@@ -247,6 +247,11 @@ Interesting, inspiring and strange words I stumble through.
 1. a sign (- or ÷) used in ancient manuscripts to indicate a spurious or doubtful word or passage.
 2. a sign (†) used to indicate reference marks. Also known as obelisk or dagger.
 
+--
+### **daedal**
+> "beautiful complex art."
+1.  ingenious; skillful; intricate; artistic. 
+
 ## French
 
 ---
