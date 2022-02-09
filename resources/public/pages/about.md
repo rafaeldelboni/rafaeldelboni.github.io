@@ -54,3 +54,4 @@
 [rebuildcast 23 estudo](https://lucasteles.dev/rebuildcast-23-estudo)                                                                                                                                    | aug 29, 2021
 [rebuildcast 24 clojure](https://lucasteles.dev/rebuildcast-24-clojure)                                                                                                                                  | sep 13, 2021
 [pencast 26 trabalho na alemanha e holanda e volta ao brasil](https://www.pencast.com.br/1782435/9661668-trabalho-na-alemanha-e-holanda-e-volta-ao-brasil-com-rodolfo-e-delboni-com-rodolfo-e-rafael-26) | dec 22, 2021
+[tudoproalto 34 trabalhar em startups](https://tudoproalto.com/como-e-trabalhar-em-startups-na-alemanha-holanda-e-brasil-com-rafael-delboni-e-rodolfo-ferreira-34/)                                      | feb 09, 2022
