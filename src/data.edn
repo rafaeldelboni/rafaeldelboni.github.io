@@ -3,6 +3,7 @@
          "resume" {:page/name "resume", :page/path "pages/resume.md", :page/hidden true}
          "words" {:page/name "words", :page/path "pages/words.md", :page/hidden true}}
 
- :posts {"being-an-invisible-content-producer" {:post/name "Being an invisible content producer", :post/description "Thoughts about creating content on internet", :post/timestamp 1636491873033, :post/path "posts/being-an-invisible-content-producer.md", :post/tags #{"content-creation" "thoughts"}}}
+ :posts {"being-an-invisible-content-producer" {:post/name "Being an invisible content producer", :post/description "Thoughts about creating content on internet", :post/timestamp 1636491873033, :post/path "posts/being-an-invisible-content-producer.md", :post/tags #{"content-creation" "thoughts"}}
+         "hard-leather-boots" {:post/name "Hard leather boots", :post/description "Recently I acquired a pair of boots after years of wearing only sneakers and it has been a quite interesting experience.", :post/timestamp 1656025729270, :post/path "posts/hard-leather-boots.md", :post/tags #{"study" "thoughts"}}}
 
  :tags {"markdown" {:tag/name "Markdown Stuff"}}}
