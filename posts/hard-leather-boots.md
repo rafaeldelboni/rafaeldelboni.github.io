@@ -52,5 +52,6 @@ This is strange because I just realized this flow/phases now with these boots, b
 - 48 keys Ortholinear Mech Keyboard -> 42 keys Column Staggered Split keyboard
 - No dog -> Having a dog *(life is way better with a dog now)*
 - Single -> Moving in with my girl
+- No health issues -> Surviving a cancer
 
 My take from this is that you need to insist and be aware that isn't only the happy path when you decide to get out and change things in your life. In my case all the times I decided to pass through these phases, my life changed for the better.
