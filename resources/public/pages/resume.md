@@ -8,12 +8,12 @@ rafael@delboni.cc
 
 **TECHNICAL EXPERIENCE**
 ------------------------
-* Ten years experience of development and software related projects.
+* Fifteen years experience of development and software related projects.
 * Experience with Agile development and Scrum practices: pair programming, test driven development, continuous integration and retrospection.
 * Mapping and definition of functional processes directly with customers and partners.
 * Skills: Clojure, Fennel, C/Cpp, Lua, Rust, NodeJs, Javascript/Typescript, C# and PHP.
 * Databases: Datomic, XTDB, MySQL, Microsoft SQL Server (MSSQL), PostgresSQL, SQLite, MongoDB, Redis and a variety of ORM's like Knex and Nhibernate.
-* Development tools: GIT, VIM, Tmux, Docker, VSTS, Kubernetes, Github Actions, Microsoft Visual Studio and Android Studio.
+* Development tools: GIT, VIM, Tmux, Docker, Pulumi, Kubernetes, Github Actions.
 * Test: State-flow, Midje, Jest, Chimp, Mocha, Chai, WebDriverIO, XUnit, Moq and FluentAssertions.
 
 **PERSONAL PROJECTS**
@@ -42,12 +42,20 @@ rafael@delboni.cc
 
 **PROFESSIONAL EXPERIENCE**
 ---------------------------
-* **180s - Software Engineer - May/2021 to (current)**  
+* **Nubank - Lead Software Engineer - Jul/2022 to (current)**  
+  Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
+  High throughput jobs and inter-service communication using Kafka;  
+  Storing data in Datomic and DynamoDB;  
+  Monitoring and observability with Prometheus and running as much as possible in Kubernetes;  
+  Continuous Integration and Deployment into AWS with tekton;
+
+* **180s - Software Engineer - May/2021 to Jun/2022**  
   Horizontally scalable micro-services written mostly in Clojure leveraging upon functional programming techniques and hexagonal architecture;  
   High throughput jobs and inter-service communication using Kafka;  
-  Storing data in CruxDB & Datomic and DynamoDB;  
+  Storing data in PostgreSQL, CruxDB & Datomic and DynamoDB;  
   Monitoring and observability and running as much as possible in Kubernetes;  
-  Continuous Integration and Deployment into AWS;
+  Continuous Integration and Deployment into AWS;  
+  IAC with Pulumi in multiple AWS accounts;
 
 * **Nubank - Software Engineer - May/2019 to May/2021**  
   Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
