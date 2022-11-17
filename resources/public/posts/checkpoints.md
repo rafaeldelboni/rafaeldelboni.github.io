@@ -51,14 +51,10 @@ to calc the sine waves stand out super simple and pretty (at least for me hahaha
 ```clojure
 (defn sine-wave-calc
   [size amplitude frequency]
-  (reduce
-   (fn [acc _]
-     (let [{:keys [x]} (last acc)
-           new-item {:x (inc x)
-                     :y (* amplitude (Math/sin (* 2 Math/PI frequency x)))}]
-       (conj acc new-item)))
-   [{:x 0 :y 0}]
-   (range size)))
+  (map (fn [t]
+         {:x t
+          :y (* amplitude (Math/sin (* 2 Math/PI frequency t)))})
+       (range size)))
 ```
 
 _You can check the entire code to generate the pngs here https://github.com/rafaeldelboni/sine-waves_
