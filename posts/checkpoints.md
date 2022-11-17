@@ -26,7 +26,7 @@ when passing through chaos, I need to be bored to trigger my creative motivation
 interestingly (or not) I just discovered this fact about me with my therapist in the recent days
 and is quite controversial for me because I hate to be bored (like most millennials out there).
 
-This is what my year looked like:
+This is what my year looked like:  
 ![sine-wave](/img/sine-wave.png)
 
 Now I will enter a descendant in direction of boredom (I hope) and usually what I do about this
@@ -34,7 +34,7 @@ is search for problems to get out of this state, a career change, maybe learn so
 and ridiculously hard, maybe just promote a small problem to a big problem (my brain loves this one).
 
 But actually what I need to do is find peace in boredom and don't deep dive into chaos, maybe a better
-sine wave would look like this:
+sine wave would look like this:  
 ![ideal-sine-wave](/img/ideal-sine-wave.png)
 
 A good balance between chaos and boredom, enough to not settle down and challenge me to seek
