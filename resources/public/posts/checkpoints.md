@@ -45,7 +45,7 @@ and try don't swim to much time in the sea of chaos I do have the natural tenden
 and organize all things this is super consuming and there is something that we can't do anything
 about it.
 
-_Fun fact: I did the drawings above using clojure and java.awt.Graphics2D and the function 
+_Fun fact: I did the drawings above using `clojure` and `java.awt.Graphics2D` and the function 
 to calc the sine waves stand out super simple and pretty (at least for me hahaha)._
 
 ```clojure
