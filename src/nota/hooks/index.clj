@@ -72,7 +72,7 @@
                        :htype "text/css"}
                       {:href "https://clj.social/@delboni"
                        :rel "me"}
-                      {:href "https://gitHub.com/rafaeldelboni"
+                      {:href "https://github.com/rafaeldelboni"
                        :rel "me"}
                       {:href "https://twitter.com/rafaeldelboni"
                        :rel "me"}]
