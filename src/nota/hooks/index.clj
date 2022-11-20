@@ -69,7 +69,13 @@
                        :rel "stylesheet"}
                       {:href "./css/nota.min.css"
                        :rel "stylesheet"
-                       :htype "text/css"}]
+                       :htype "text/css"}
+                      {:href "https://clj.social/@delboni"
+                       :rel "me"}
+                      {:href "https://gitHub.com/rafaeldelboni"
+                       :rel "me"}
+                      {:href "https://twitter.com/rafaeldelboni"
+                       :rel "me"}]
           :scripts   ["https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-core.min.js"
                       "https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js"]
           :lang      "en"
