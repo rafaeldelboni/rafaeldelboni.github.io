@@ -257,6 +257,11 @@ Interesting, inspiring and strange words I stumble through.
 > "empty tomb"
 1. a tomb or a monument erected in honor of a person or group of persons whose remains are elsewhere.
 
+---
+### **kalopsia**
+> "beautiful illusion"
+1. the delusion of things being more beautiful than they are.
+
 ## French
 
 ---
