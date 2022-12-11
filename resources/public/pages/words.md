@@ -252,6 +252,11 @@ Interesting, inspiring and strange words I stumble through.
 > "beautiful complex art."
 1.  ingenious; skillful; intricate; artistic. 
 
+---
+### **cenotaph**
+> "empty tomb"
+1. a tomb or a monument erected in honor of a person or group of persons whose remains are elsewhere.
+
 ## French
 
 ---
