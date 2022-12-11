@@ -3,6 +3,7 @@
 ### links
 [github](https://github.com/rafaeldelboni)
 [twitter](https://twitter.com/rafaeldelboni)
+[mastodon](https://clj.social/@delboni)
 [youtube](https://www.youtube.com/rafaeldelboni)
 [flickr](https://flickr.com/rafaeldelboni)
 [linkedin](https://linkedin.com/in/rafaeldelboni)
