@@ -98,6 +98,7 @@
     (write-html path index-html)
     build-state))
 
+#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
 (defn hook
   {:shadow.build/stage :flush}
   ([build-state]

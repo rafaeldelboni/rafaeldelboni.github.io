@@ -30,7 +30,7 @@
    mock-database))
 
 (defn mock-fetch-text-fn
-  [_ _ _]
+  [_ _]
   "#fetchbody")
 
 (defn create-app []

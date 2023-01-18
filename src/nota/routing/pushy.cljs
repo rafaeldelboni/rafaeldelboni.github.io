@@ -107,7 +107,7 @@
                               (fn [^Event e]
                                 (when-let [match (-> (.-token e) match-fn identity-fn)]
                                   (dispatch-fn match)))))
- 
+
         ;; Dispatch on initialization
         (when-let [match (-> (get-token this) match-fn identity-fn)]
           (dispatch-fn match))

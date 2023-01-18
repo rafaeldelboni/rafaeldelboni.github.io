@@ -1,7 +1,7 @@
 (ns nota.routing.pushy-test
   (:require [clojure.test :refer [async deftest is] :as test]
-            [secretary.core :as secretary :refer-macros [defroute]]
-            [nota.routing.pushy :as pushy])
+            [nota.routing.pushy :as pushy]
+            [secretary.core :as secretary :refer-macros [defroute]])
   (:import goog.history.Html5History))
 
 (secretary/set-config! :prefix "/")

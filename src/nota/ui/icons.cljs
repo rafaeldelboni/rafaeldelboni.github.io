@@ -1,6 +1,6 @@
 (ns nota.ui.icons
-  (:require [com.fulcrologic.fulcro.dom :as dom]
-            [com.fulcrologic.fulcro.components :as comp :refer [defsc]]))
+  (:require [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
+            [com.fulcrologic.fulcro.dom :as dom]))
 
 (defsc SunIcon [_ {:keys [width height]}]
   {}
