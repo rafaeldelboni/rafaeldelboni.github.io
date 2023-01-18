@@ -1,8 +1,7 @@
 (ns nota.logics-test
-  (:require
-   [nota.logics :as logics]
-   [clojure.test :refer [deftest is]]
-   [fulcro-spec.core :refer [behavior assertions]]))
+  (:require [clojure.test :refer [deftest is]]
+            [fulcro-spec.core :refer [assertions behavior]]
+            [nota.logics :as logics]))
 
 (declare =>)
 

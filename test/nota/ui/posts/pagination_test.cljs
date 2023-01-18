@@ -1,8 +1,7 @@
 (ns nota.ui.posts.pagination-test
-  (:require
-   [clojure.test :refer [deftest]]
-   [nota.ui.posts.pagination :as ui.posts.pagination]
-   [fulcro-spec.core :refer [behavior assertions]]))
+  (:require [clojure.test :refer [deftest]]
+            [fulcro-spec.core :refer [assertions behavior]]
+            [nota.ui.posts.pagination :as ui.posts.pagination]))
 
 (declare =>)
 
