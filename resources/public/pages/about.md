@@ -12,6 +12,7 @@
 
 ### collections
 [words](/#/words)
+[paintings](/#/paintings)
 
 ### experiences
 ~~solutions analyst at **[canon do brasil](http://www.canon.com.br/)**~~  
