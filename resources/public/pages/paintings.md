@@ -87,9 +87,9 @@ License: Public Domain
 
 ## Ramon Casas
 #### Decadent young woman. After the dance, 1899
-![decadent-young-woman-after-the-dance](https://www.wikiart.org/en/ramon-casas/68bc12880c76d4e30657d96ffecbbeba-1899)  
+![decadent-young-woman-after-the-dance](https://uploads4.wikiart.org/00333/images/ramon-casas/68bc12880c76d4e30657d96ffecbbeba.jpg)  
 License: Public Domain  
-*[Source](https://uploads4.wikiart.org/00333/images/ramon-casas/68bc12880c76d4e30657d96ffecbbeba.jpg)*
+*[Source](https://www.wikiart.org/en/ramon-casas/68bc12880c76d4e30657d96ffecbbeba-1899)*
 
 ---
 
@@ -102,9 +102,9 @@ License: Public Domain
 ---
 ## Carolus-Duran 
 #### Portrait of Madame Marie Clerc, 1874
-![portrait-of-madame-marie-clerc](https://www.wikiart.org/en/carolus-duran/portrait-of-madame-marie-clerc-1874)  
+![portrait-of-madame-marie-clerc](https://uploads8.wikiart.org/00121/images/carolus-duran/portrait-of-madame-marie-clerc-1974.jpg)  
 License: Public Domain  
-*[Source](https://uploads8.wikiart.org/00121/images/carolus-duran/portrait-of-madame-marie-clerc-1974.jpg)*
+*[Source](https://www.wikiart.org/en/carolus-duran/portrait-of-madame-marie-clerc-1874)*
 
 ---
 
