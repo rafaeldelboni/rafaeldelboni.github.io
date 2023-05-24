@@ -207,3 +207,24 @@ License: Public Domain
 ![william-h-taft](https://uploads1.wikiart.org/images/anders-zorn/william-h-taft-1911.jpg)  
 License: Public Domain  
 *[Source](https://www.wikiart.org/en/anders-zorn/william-h-taft-1911)*
+
+---
+
+## George Bellows
+#### Stag at Sharkey's, 1909
+![stag-at-sharkey](https://upload.wikimedia.org/wikipedia/commons/8/82/George_Bellows_(American%2C_1882-1925)_-_Stag_at_Sharkey's_-_1922.1133_-_Cleveland_Museum_of_Art.jpg)  
+License: Creative Commons CC0  
+*[Source](https://web-collection-prod.clevelandart.org/art/1922.1133)*
+
+---
+
+## Vincent van Gogh
+#### Self-Portrait, 1887
+![self-portrait](https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/1024,/0/default.jpg)  
+License: Creative Commons CC0  
+*[Source](https://www.artic.edu/artworks/80607/self-portrait)*
+
+#### Portrait of an Old Man, 1885
+![self-portrait](https://iiif.micr.io/Sanjh/full/1024,/0/default.jpg)  
+License: Public Domain  
+*[Source](https://www.vangoghmuseum.nl/en/collection/s0061V1962)*
