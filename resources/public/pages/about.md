@@ -26,6 +26,7 @@
 
 ### projects
 ---
+* **[docs.clj.codes](https://docs.clj.codes/)** A modern clojuredocs.org reimplementation. _[source](https://github.com/clj-codes/docs)_
 * **[6502 emulator](https://github.com/nopsteam/6502)** a 6502 emulator written in pure c  
 * **[água consciente](https://play.google.com/store/apps/details?id=alphadelete.aguaconsciente)** android app to calculate water volume spent based on time _[source](https://github.com/rafaeldelboni/AguaConsciente)_  
 * **[gh-commits-category](http://gh-commits-category.herokuapp.com/)** api that consolidates semantic commit messages in github per user _[source](https://github.com/rafaeldelboni/gh-commits-category)_  
