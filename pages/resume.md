@@ -18,6 +18,7 @@ rafael@delboni.cc
 
 **PERSONAL PROJECTS**
 ---------------------
+* **[docs.clj.codes](https://docs.clj.codes/)** A modern clojuredocs.org reimplementation. _[source](https://github.com/clj-codes/docs)_
 * **[6502 Emulator](https://github.com/nopsteam/6502)** A 6502 Emulator written in pure c _[source](https://github.com/nopsteam/6502)_
 * **[Água Consciente](https://play.google.com/store/apps/details?id=alphadelete.aguaconsciente)** Android App to calculate water volume spent based on time _[source](https://github.com/rafaeldelboni/AguaConsciente)_
 * **[Graphmosphere](https://twitter.com/graphmosphere)** A Twitter bot that create geometric pictures and gifs from static noises _[source](https://github.com/rafaeldelboni/Graphmosphere)_
@@ -43,6 +44,7 @@ rafael@delboni.cc
 **PROFESSIONAL EXPERIENCE**
 ---------------------------
 * **Nubank - Lead Software Engineer - Jul/2022 to (current)**  
+  Member of the Cryptography Team, contributing to the design and development of a cutting-edge token system built on the macaroons protocol. Expertise includes architecting secure, scalable solutions and maintaining core libraries to streamline and optimize cryptographic operations, ensuring robust data protection and seamless integration across platforms.  
   Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
   High throughput jobs and inter-service communication using Kafka;  
   Storing data in Datomic and DynamoDB;  
