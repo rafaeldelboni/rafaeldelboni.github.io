@@ -212,9 +212,9 @@ License: Public Domain
 
 ## George Bellows
 #### Stag at Sharkey's, 1909
-![stag-at-sharkey](https://upload.wikimedia.org/wikipedia/commons/8/82/George_Bellows_(American%2C_1882-1925)_-_Stag_at_Sharkey's_-_1922.1133_-_Cleveland_Museum_of_Art.jpg)  
-License: Creative Commons CC0  
-*[Source](https://web-collection-prod.clevelandart.org/art/1922.1133)*
+![stag-at-sharkey](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/George_Bellows_%28American%2C_1882-1925%29_-_Stag_at_Sharkey%27s_-_1922.1133_-_Cleveland_Museum_of_Art.jpg/1280px-George_Bellows_%28American%2C_1882-1925%29_-_Stag_at_Sharkey%27s_-_1922.1133_-_Cleveland_Museum_of_Art.jpg)  
+License: Public Domain  
+*[Source](https://www.clevelandart.org/art/1922.1133)*
 
 ---
 
@@ -228,3 +228,20 @@ License: Creative Commons CC0
 ![self-portrait](https://iiif.micr.io/Sanjh/full/1024,/0/default.jpg)  
 License: Public Domain  
 *[Source](https://www.vangoghmuseum.nl/en/collection/s0061V1962)*
+
+---
+
+## Lovis Corinth
+#### Self-portrait with Skeleton, 1896
+![self-portrait-with-skeleton](https://uploads7.wikiart.org/images/lovis-corinth/self-portrait-with-skeleton-1896.jpg)  
+License: Public Domain  
+*[Source](https://www.wikiart.org/en/lovis-corinth/self-portrait-with-skeleton-1896)*
+
+---
+
+## Elizabeth Thompson
+#### The remnants of an army, Jellalabad, 1842
+![remnants-of-an-army](https://uploads6.wikiart.org/00142/images/57987646edc2c905e024b10a/remnants-of-an-army2.jpg)  
+License: Public Domain  
+*[Source](https://www.wikiart.org/en/elizabeth-thompson/the-remnants-of-an-army-jellalabad-january-13-1842-1879)*
+
