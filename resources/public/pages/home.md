@@ -4,5 +4,4 @@ backend developer and part time frontender, i have strong interest in electronic
 [mechanical keyboards](https://github.com/rafaeldelboni/buildlogs),
 [photography](https://www.flickr.com/photos/rafaeldelboni), video games, art, creativity and coffee.  
 
-i'm currently studying how to [paint, draw](https://instagram.com/delbonicc) and game development.
-
+i'm currently studying how to [paint, draw](https://instagram.com/delbonicc) and [game development](https://rafaeldelboni.itch.io).
