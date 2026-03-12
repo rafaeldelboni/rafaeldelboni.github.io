@@ -43,7 +43,7 @@ rafael@delboni.cc
 
 **PROFESSIONAL EXPERIENCE**
 ---------------------------
-* **Nubank - Lead Software Engineer - Jul/2022 to (current)**  
+* **Nubank - Software Engineer - Jul/2022 to (current)**  
   Member of the Cryptography Team, contributing to the design and development of a cutting-edge token system built on the macaroons protocol. Expertise includes architecting secure, scalable solutions and maintaining core libraries to streamline and optimize cryptographic operations, ensuring robust data protection and seamless integration across platforms.  
   Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
   High throughput jobs and inter-service communication using Kafka;  
