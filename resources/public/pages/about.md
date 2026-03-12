@@ -22,7 +22,7 @@
 ~~fullstack developer at **[lambda3](https://www.lambda3.com.br/)**~~  
 ~~software engineer at **[nubank](https://www.nubank.com.br/)**~~  
 ~~software engineer at **[180s](https://www.180s.com.br/)**~~  
-**lead software engineer at [nubank](https://www.nubank.com.br/)**  
+**software engineer at [nubank](https://www.nubank.com.br/)**  
 
 ### projects
 ---
