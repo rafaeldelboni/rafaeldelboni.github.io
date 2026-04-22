@@ -1,6 +1,6 @@
 # How keep the motivation on a very long and useless project
 
-### 17 minutes to read  
+### 8 minutes to read  
 
 _I decided to make a 3D game and took the hard route just for fun._
 
