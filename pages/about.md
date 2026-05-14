@@ -38,8 +38,8 @@
 * **super dice roll** _[discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_  
 #### games
 * **[phaser grave](http://phaser-grave.herokuapp.com/)** a phaserjs clone of the game grave _[source](https://github.com/rafaeldelboni/phaser-grave)_  
-* **[zero to hero](https://rafaeldelboni.itch.io/zero-to-hero)** In Zero to Hero, a puzzle-platformer, you control a formless shadow blob that slowly learns to mimic the abilities of fallen heroes. _[source](https://github.com/rafaeldelboni/zero-to-hero)_  
-* **[feles tales](https://github.com/rafaeldelboni/feles-tales)**  A game about a cat sneaking and stealing stuff. _[source](https://github.com/rafaeldelboni/feles-tales)_  
+* **[zero to hero](https://rafaeldelboni.itch.io/zero-to-hero)** In Zero to Hero, a puzzle-platformer, you control a formless shadow blob that slowly learns to mimic the abilities of fallen heroes. (2d game written using cljs and phaserjs) _[source](https://github.com/rafaeldelboni/zero-to-hero)_  
+* **[feles tales](https://rafaeldelboni.itch.io/feles-tales)** A game about a cat sneaking and stealing stuff. (3d game written using squint, threejs, rapier, recast) _[source](https://github.com/rafaeldelboni/feles-tales)_  
 
 ### podcasts
 **link**                                                                                                                        | **date**
