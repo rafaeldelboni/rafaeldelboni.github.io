@@ -35,8 +35,11 @@
 * **[microservice-boilerplate](https://github.com/parenthesin/microservice-boilerplate)** clojure microservice boilerplate: components, reitit, pedestal, schema, postgresql and tests  
 * **[nota](rafael.delboni.cc/nota/)** static markdown blog/site using fulcro & pathom with no backend _[source](https://github.com/rafaeldelboni/nota)_  
 * **[cajus-nvim](https://github.com/rafaeldelboni/cajus-nvim)** basic config to transform your nvim in a powerful clojure ide using fennel, clojure-lsp and conjure  
-* **[phaser grave](http://phaser-grave.herokuapp.com/)** a phaserjs clone of the game grave _[source](https://github.com/rafaeldelboni/phaser-grave)_  
 * **super dice roll** _[discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_  
+#### games
+* **[phaser grave](http://phaser-grave.herokuapp.com/)** a phaserjs clone of the game grave _[source](https://github.com/rafaeldelboni/phaser-grave)_  
+* **[zero to hero](https://rafaeldelboni.itch.io/zero-to-hero)** In Zero to Hero, a puzzle-platformer, you control a formless shadow blob that slowly learns to mimic the abilities of fallen heroes. _[source](https://github.com/rafaeldelboni/zero-to-hero)_  
+* **[feles tales](https://github.com/rafaeldelboni/feles-tales)**  A game about a cat sneaking and stealing stuff. _[source](https://github.com/rafaeldelboni/feles-tales)_  
 
 ### podcasts
 **link**                                                                                                                        | **date**
