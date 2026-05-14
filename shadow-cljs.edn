@@ -1,4 +1,5 @@
 {:deps     {:aliases [:dev :tests]}
+ :nrepl    {:middleware [cider.piggieback/wrap-cljs-repl]}
  :dev-http {8000 "resources/public"}
  :builds   {:tests       {:target           :browser-test
                           :build-hooks      [(nota.hooks.build/hook)]
@@ -24,4 +25,4 @@
                    :modules    {:main {:init-fn nota.application/init
                                        :entries [nota.application]}}
                    :devtools   {:after-load nota.application/refresh
-                                :preloads   [com.fulcrologic.fulcro.inspect.preload]}}}}
+                                :preloads   [com.fulcrologic.devtools.chrome-preload]}}}}
