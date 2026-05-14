@@ -1,15 +1,18 @@
 (ns nota.application
-  (:require [com.fulcrologic.fulcro.application :as app]
-            [com.fulcrologic.fulcro.components :as comp]
-            [com.fulcrologic.fulcro.data-fetch :as df]
-            [com.fulcrologic.fulcro.routing.dynamic-routing :as dr]
-            [nota.application.data :as data]
-            [nota.application.env :as env]
-            [nota.application.remote :as remote]
-            [nota.resolvers :as resolvers]
-            [nota.routing :as routing]
-            [nota.ui :as ui]
-            [nota.ui.pages :as ui.pages]))
+  (:require
+   [com.fulcrologic.devtools.common.target :refer [ido]]
+   [com.fulcrologic.fulcro.application :as app]
+   [com.fulcrologic.fulcro.components :as comp]
+   [com.fulcrologic.fulcro.data-fetch :as df]
+   [com.fulcrologic.fulcro.routing.dynamic-routing :as dr]
+   [fulcro.inspect.tool :as it]
+   [nota.application.data :as data]
+   [nota.application.env :as env]
+   [nota.application.remote :as remote]
+   [nota.resolvers :as resolvers]
+   [nota.routing :as routing]
+   [nota.ui :as ui]
+   [nota.ui.pages :as ui.pages]))
 
 (defonce nota-app
   (app/fulcro-app {:remotes {:remote
@@ -17,6 +20,8 @@
                                                   {:config env/config
                                                    :database-fn data/database-fn
                                                    :fetch-text-fn data/fetch-text-fn})}}))
+
+(ido (it/add-fulcro-inspect! nota-app))
 
 (defn ^:export init []
   (app/set-root! nota-app ui/Root {:initialize-state? true})
