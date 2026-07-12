@@ -6,7 +6,7 @@ description: I decided to make a 3d game and took the hard route just for fun.
 tags: [gamedev, motivation]
 ---
 
-### 17 minutes to read  
+### 8 minutes to read  
 
 _I decided to make a 3D game and took the hard route just for fun._
 
