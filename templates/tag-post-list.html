@@ -5,7 +5,7 @@
     <p class="eyebrow">Tagged</p>
     <h1>#{{ title }}</h1>
     <ul>
-      {{# posts }}
+      {{# posts sort=date desc }}
       <li>
         <a href="{{ base_path }}/{{ url }}">{{ title }}</a>
         <time datetime="{{ date }}">{{ date_human }}</time>

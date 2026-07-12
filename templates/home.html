@@ -5,7 +5,7 @@
 
   <h2>Recent posts</h2>
   <ul>
-    {{# posts }}
+    {{# posts sort=date desc top=5 }}
     <li>
       <a href="{{ base_path }}/{{ url }}">{{ title }}</a>
       <time datetime="{{ date }}">{{ date_human }}</time>
