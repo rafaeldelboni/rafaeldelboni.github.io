@@ -1,0 +1,16 @@
+{{> partials/header.html }}
+
+  <h1>{{ title }}</h1>
+  {{{ body }}}
+
+  <h2>Recent posts</h2>
+  <ul>
+    {{# posts }}
+    <li>
+      <a href="{{ base_path }}/{{ url }}">{{ title }}</a>
+      <time datetime="{{ date }}">{{ date_human }}</time>
+    </li>
+    {{/ posts }}
+  </ul>
+
+{{> partials/footer.html }}

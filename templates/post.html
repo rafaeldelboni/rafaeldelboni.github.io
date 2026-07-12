@@ -1,0 +1,16 @@
+{{> partials/header.html }}
+
+  <article>
+    <h1>{{ title }}</h1>
+    <time datetime="{{ date }}">{{ date_human }}</time>
+    {{# tags }}
+    <span class="tag">
+      <a href="{{ base_path }}/{{ url }}">{{ title }}</a>
+    </span>
+    {{/ tags }}
+    <div class="content">
+      {{{ body }}}
+    </div>
+  </article>
+
+{{> partials/footer.html }}
