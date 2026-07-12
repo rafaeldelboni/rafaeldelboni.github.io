@@ -242,13 +242,13 @@ img, video { max-width: 100%; height: auto; border-radius: 4px; }
 /* ---------- Post meta: date + tags ---------- */
 time {
   display: block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   color: var(--muted);
   font-size: 0.85em;
 }
 .tag {
   display: inline-block;
-  margin: 0 0.4em 0.5em 0;
+  margin: 0 0.4em 2em 0;
   font-size: 0.8em;
 }
 .tag a {
