@@ -1,0 +1,6 @@
+title: rafael delboni
+base_url: https://rafael.delboni.cc
+menu:
+  main:
+    - { name: home, url: / }
+    - { name: posts, url: /posts/ }

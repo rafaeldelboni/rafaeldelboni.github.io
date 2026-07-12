@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <link rel="icon" type="image/png" href="{{ base_path }}/favicon.png">
+  <link rel="stylesheet" href="{{ base_path }}/style.css">
+  <script>
+    (function(){var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;})();
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="{{ base_path }}/">
+      <svg class="logo" viewBox="-1.521 -3.558 300 210" width="65" height="45" aria-label="logo">
+        <path d="M27.111 11.606v120.942h32.71c70.994 0 69.547-66.755 69.547-66.755 0-68.068-69.109-66.475-69.109-66.475H14.857v191.306h101.899L1.732 75.899v127.64h165.922V-.685h26.238s101.559 2.049 101.559 102.417c0 99.119-102.969 101.833-102.969 101.833h-12.055v-12.941h12.055s90.057-4.835 90.057-88.686c0-85.74-90.16-90.008-90.16-90.008h-37.398v178.694h-12.696V-.685H154.9" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+      </svg>
+    </a>
+    <div>
+      {{# menu_main }}
+      <a href="{{ base_path }}/{{ url }}">{{ name }}</a>
+      {{/ menu_main }}
+      <button class="theme-toggle" aria-label="Toggle theme" onclick="
+        (function(b){
+          var d=document.documentElement;
+          var cur=d.dataset.theme
+            || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light');
+          var nxt=cur==='dark'?'light':'dark';
+          d.dataset.theme=nxt;
+          localStorage.setItem('theme',nxt);
+          b.setAttribute('aria-pressed', nxt==='dark');
+        })(this);
+      ">
+        <svg viewBox="0 0 12 12" aria-hidden="true">
+          <polygon data-light points="6,1 11,10 1,10" fill="currentColor"/>
+          <polygon data-dark  points="6,11 11,2 1,2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <main>

@@ -1,0 +1,283 @@
+/* stabilis — classless theme
+ * ============================
+ * Minimal, monospace, single teal accent, system light/dark.
+ *
+ * Everything is styled through *semantic element selectors* (h1, p, a,
+ * blockquote, pre, table…) rather than classes. That's deliberate: your
+ * markdown is rendered to bare tags, so a classless sheet is what makes
+ * post bodies look right without annotating every post. The only two
+ * classes styled (.tag, .content, .task-list-item*) are the ones your
+ * templates / GFM output already emit.
+ *
+ * To reskin: change --accent (one line). Everything else is monochrome.
+ */
+
+/* ---------- Design tokens ---------- */
+:root {
+  color-scheme: light dark;              /* native controls/scrollbars follow theme */
+
+  --font: "Recursive", ui-monospace, "SF Mono", "Cascadia Code",
+          "JetBrains Mono", Menlo, Consolas, monospace;
+  --measure: 56.25rem;                   /* reading column ≈ 900px; one knob for side gaps vs line length */
+}
+
+/* Light palette (default, also used when data-theme="light") */
+:root, :root[data-theme="light"] {
+  --bg:       #f7f7f5;
+  --bg-alt:   #ececea;                   /* code / pre background */
+  --text:     #1a1a1a;
+  --muted:    #5c5c5c;                   /* dates, captions, tags */
+  --border:   #dcdcda;
+  --accent:   #0f766e;                   /* the single accent — teal */
+  --accent-2: #0b5e57;                   /* hover */
+}
+
+/* Dark palette */
+:root[data-theme="dark"] {
+  --bg:       #0d0d0d;
+  --bg-alt:   #242424;
+  --text:     #e8e8e8;
+  --muted:    #9a9a9a;
+  --border:   #2a2a2a;
+  --accent:   #4ecab4;
+  --accent-2: #6fd7c4;
+}
+
+/* No explicit choice → follow the OS */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:       #0d0d0d;
+    --bg-alt:   #242424;
+    --text:     #e8e8e8;
+    --muted:    #9a9a9a;
+    --border:   #2a2a2a;
+    --accent:   #4ecab4;
+    --accent-2: #6fd7c4;
+  }
+}
+
+/* ---------- Recursive (self-hosted variable font, OFL) ---------- */
+@font-face {
+  font-family: "Recursive";
+  src: url("/fonts/recursive-wght-slnt.woff2") format("woff2");
+  font-weight: 300 1000;                 /* variable weight range */
+  font-display: swap;
+}
+
+/* ---------- Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+/* ---------- Base ---------- */
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  max-width: var(--measure);
+  margin-inline: auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.25rem 3rem;
+  font-family: var(--font);
+  /* MONO 1 = monospaced glyphs; CASL 0 = linear (technical, not casual).
+     Inherited by everything, so the whole page is mono. */
+  font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0;
+  font-size: 1.0625rem;                  /* ~17px — a notch above default for comfort */
+  line-height: 1.7;
+  overflow-wrap: break-word;             /* long URLs/words wrap instead of overflowing */
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Vertical rhythm: one consistent gap under flow content */
+p, ul, ol, pre, blockquote, table, figure, img {
+  margin-block: 0 1.1rem;
+}
+
+/* ---------- Nav (top, centered) ---------- */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;        /* wordmark left, menu right */
+  gap: 0.75rem 1.5rem;
+  padding-bottom: 0;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border);
+}
+nav > a { font-weight: 700; font-size: 1.1rem; }             /* the "stabilis" wordmark */
+nav > a .logo { color: var(--text); }
+nav > div { display: flex; flex-wrap: wrap; gap: 1.5rem; }   /* the menu links */
+
+/* ---------- Theme toggle (triangle: up=light, down=dark) ---------- */
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text);
+  line-height: 0;
+}
+.theme-toggle:hover { color: var(--accent); }
+.theme-toggle svg { width: 1.1rem; height: 1.1rem; }
+
+/* Show the triangle for the theme you'll switch TO */
+/* Default (no data-theme): follow OS; show dark triangle when OS is light, vice versa */
+[data-light] { display: none; }
+[data-dark]  { display: block; }
+
+:root[data-theme="light"] [data-light] { display: none; }
+:root[data-theme="light"] [data-dark]  { display: block; }
+:root[data-theme="dark"] [data-light]  { display: block; }
+:root[data-theme="dark"] [data-dark]   { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) [data-light] { display: block; }
+  :root:not([data-theme]) [data-dark]  { display: none; }
+}
+main { flex: 1 0 auto; }                 /* fill height so the footer sits at the bottom */
+main > :first-child { margin-top: 0; }   /* no double gap under the nav */
+
+/* ---------- Footer (ready for when a <footer> is added) ---------- */
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85em;
+  text-align: center;
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  font-weight: 700;
+  margin-block: 1.75rem 0.5rem;
+  overflow-wrap: break-word;             /* long mono headings never overflow */
+}
+h1 { font-size: 1.8rem; }                /* restrained on desktop (per your note) */
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.05rem; }
+h5, h6 { font-size: 1rem; }
+h6 { color: var(--muted); }
+:is(article, section, .content) > :first-child { margin-top: 0; }
+
+/* ---------- Links ---------- */
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+}
+a:hover { color: var(--accent-2); }
+nav a, footer a, .tag a { text-decoration: none; }
+nav a { color: var(--text); }
+nav a:hover { color: var(--accent); }
+
+/* ---------- Inline text ---------- */
+strong { font-weight: 700; }
+em { font-style: italic; font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15; }
+small, sub, sup { font-size: 0.8em; }
+hr { border: none; border-top: 1px solid var(--border); margin-block: 2.5rem; }
+
+/* ---------- Lists ---------- */
+ul, ol { padding-left: 1.5em; }
+li { margin-bottom: 0.3em; }
+li > ul, li > ol { margin-block: 0.4em; }
+
+/* ---------- Blockquote ---------- */
+blockquote {
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+blockquote > :last-child { margin-bottom: 0; }
+
+/* ---------- Code ---------- */
+code, kbd, samp, pre {
+  font-family: var(--font);
+  font-variation-settings: "MONO" 1;     /* UA resets font on these — re-assert */
+}
+code, kbd, samp {
+  font-size: 0.9em;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+pre {
+  background: var(--bg-alt);
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow-x: auto;                      /* scroll long code, never break layout */
+}
+pre code {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 0.9em;
+}
+
+/* ---------- Tables ---------- */
+table {
+  display: block;                        /* wide tables scroll on mobile */
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.5em 0.75em;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+th { font-weight: 700; }
+
+/* ---------- Media ---------- */
+img, video { max-width: 100%; height: auto; border-radius: 4px; }
+
+/* ---------- Post meta: date + tags ---------- */
+time {
+  display: block;
+  margin-bottom: 1.5rem;
+  color: var(--muted);
+  font-size: 0.85em;
+}
+.tag {
+  display: inline-block;
+  margin: 0 0.4em 0.5em 0;
+  font-size: 0.8em;
+}
+.tag a {
+  padding: 0.15em 0.6em;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.tag a::before { content: "#"; opacity: 0.6; }   /* jyu/prusa-style # prefix */
+.tag a:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ---------- Post lists: date inline after the title (home + /posts) ---------- */
+li time { display: inline; margin: 0 0 0 0.5em; }
+
+/* ---------- Tag page hero (kicker + #tag) ---------- */
+.eyebrow {
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.eyebrow + h1 { margin-top: 0.1rem; }
+
+/* ---------- Task lists (GFM checkboxes) ---------- */
+.task-list-item { list-style: none; }
+.task-list-item-checkbox { margin-right: 0.5em; }
+ul:has(.task-list-item) { padding-left: 0.5em; }
+
+/* ---------- Selection & focus ---------- */
+::selection { background: var(--accent); color: var(--bg); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
