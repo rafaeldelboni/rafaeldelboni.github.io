@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ site_title }}</title>
+  <link href="{{ base_url }}"/>
+  <link rel="self" href="{{ base_url }}/feed.atom"/>
+  <updated>{{ updated }}</updated>
+  <author>
+    <name>{{ site_author }}</name>
+  </author>
+  <generator uri="https://github.com/rafaeldelboni/stabilis" version="{{ site_version }}">stabilis</generator>
+  <rights>Copyright {{ year }} {{ site_author }}</rights>
+  <subtitle>{{ site_description }}</subtitle>
+  <id>{{ base_url }}/</id>
+
+  {{# posts sort=date desc top=10 }}
+  <entry>
+    <title>{{ title }}</title>
+    <link href="{{ base_url }}/{{ url }}"/>
+    <id>{{ base_url }}/{{ url }}</id>
+    <published>{{ date }}</published>
+    <updated>{{ date }}</updated>
+    {{# tags }}<category term="{{ slug }}" label="{{ title }}"/>{{/ tags }}
+    <summary>{{ description }}</summary>
+    <content type="html">{{ body }}</content>
+  </entry>
+  {{/ posts }}
+
+</feed>
