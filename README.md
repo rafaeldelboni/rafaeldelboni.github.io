@@ -18,5 +18,4 @@ stabilis new page "About me" -s about -m main
 
 ## License
 
-This is free and unencumbered software released into the public domain.
-For more information, please refer to <http://unlicense.org>
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
