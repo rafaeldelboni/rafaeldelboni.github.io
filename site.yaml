@@ -1,5 +1,7 @@
 title: rafael delboni
 base_url: https://rafael.delboni.cc
+author: Rafael Delboni
+description:  My personal page
 menu:
   main:
     - { name: home, url: / }
