@@ -32,7 +32,10 @@ jobs:
           curl -sSL https://github.com/tdewolff/minify/releases/download/v2.24.13/minify_linux_amd64.tar.gz | tar -xz -C /usr/local/bin minify
 
       - name: Minify assets
-        run: minify -r -o public public
+        run: |
+          minify -r -o public-min public
+          rm -rf public
+          mv public-min public
 
       - uses: actions/upload-pages-artifact@v5
         with:
