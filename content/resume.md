@@ -1,6 +1,6 @@
 ---
 title: "resume"
-date: 2021-11-09T18:23:00Z
+date: 2021-11-09T18:24:00Z
 slug: resume
 ---
 
