@@ -141,7 +141,7 @@ main > :first-child { margin-top: 0; }   /* no double gap under the nav */
 
 /* ---------- Footer (ready for when a <footer> is added) ---------- */
 footer {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
   color: var(--muted);
