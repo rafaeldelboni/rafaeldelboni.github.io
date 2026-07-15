@@ -2,7 +2,6 @@
 title: "Learning Zig in the Modern Age and Other Ramblings"
 date: 2026-07-15T00:19:39Z
 slug: learning-zig-in-the-modern-age-and-other-ramblings
-draft: true
 tags: [study, thoughts, zig]
 ---
 
