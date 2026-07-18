@@ -59,8 +59,7 @@ So I got to the point I understood more and more of the lang on things like why 
 But I came from the comfortable and peaceful land of functional programming using a dynamic language, and handling all that strange ptr yada yada in my code was leading to a huge and horrible spaghetti
 mentored by an LLM bot _(that is possibly a distillation of another one)._
 
-So I decided to step back and do the cringiest thing I always see when people doing when starting to learn Clojure _(Yes, I'm looking at you Uncle Bob and that bizarre testing suite you insist on working on)_
-and I decided to not follow what the community is doing and go with my own biased, out-of-place, and not-backed architectural decisions.
+So I decided to step back and do the cringiest thing I always see people do when they start learning Clojure _(Yes, I'm looking at you Uncle Bob and that bizarre testing suite you insist on working on)_. I decided to not follow what the community is doing and go with my own biased, out-of-place, and not-backed architectural decisions.
 
 And I refactored my code to use ports & adapters-more specifically, this [Ploeh's take of it](https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/) _(please read it is a nice article, and there is a 
 [video version](https://www.youtube.com/watch?v=US8QG9I1XW0) as well)._ I've been working on systems in this architecture long enough that this is my home and comfort, so why not?
