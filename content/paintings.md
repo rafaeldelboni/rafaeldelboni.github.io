@@ -255,3 +255,11 @@ License: Public Domain
 License: Public Domain  
 *[Source](https://www.wikiart.org/en/elizabeth-thompson/the-remnants-of-an-army-jellalabad-january-13-1842-1879)*
 
+---
+
+## Julian Ashton
+#### A solitary ramble, 1888
+![a-solitary-ramble](/images/paintings/julian-ashton-a-solitary-ramble.jpg)  
+License: Public Domain  
+*[Source](https://www.wikiart.org/en/julian-ashton/a-solitary-ramble-1888)*
+
