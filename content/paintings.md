@@ -299,6 +299,21 @@ License: Public Domain
 
 ---
 
+## Tarsila do Amaral
+#### Autorretrato com vestido laranja, 1921
+![autorretrato-com-vestido-laranja](/images/paintings/tarsila-do-amaral-autorretrato-com-vestido-laranja.jpg)  
+Oil on canvas  
+License: Fair Use  
+*[Source](https://www.tarsiladoamaral.com.br/c%C3%B3pia-in%C3%ADcio-do-cubismo?pgid=lsdorv9s2-b8ab3762-024d-448a-b9f6-08621344ef34)*
+
+#### Retrato de Mário de Andrade, 1922
+![retrato-de-mario-de-andrade](/images/paintings/tarsila-do-amaral-retrato-de-mario-de-andrade.jpg)  
+Oil on canvas  
+License: Fair Use  
+*[Source](https://www.tarsiladoamaral.com.br/c%C3%B3pia-in%C3%ADcio-do-cubismo?pgid=lsdorv9s2-6f1c0f68-889a-48a3-a12a-a42ad043040d)*
+
+---
+
 ## Vincent van Gogh
 #### Self-Portrait, 1887
 ![self-portrait](/images/paintings/vincent-van-gogh-self-portrait.jpg)  
