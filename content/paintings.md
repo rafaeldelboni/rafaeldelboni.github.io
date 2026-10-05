@@ -197,6 +197,21 @@ License: Public Domain
 
 ---
 
+## Henri de Toulouse-Lautrec
+#### In Bed, 1893
+![in-bed](/images/paintings/henri-de-toulouse-lautrec-in-bed-1893.jpg)  
+Oil on canvas  
+License: Public Domain  
+*[Source](https://www.wikiart.org/en/henri-de-toulouse-lautrec/in-bed-1893)*
+
+#### The Milliner, 1900
+![the-milliner](/images/paintings/henri-de-toulouse-lautrec-the-milliner-1900.jpg)  
+Oil on canvas  
+License: Public Domain  
+*[Source](https://www.wikiart.org/en/henri-de-toulouse-lautrec/the-milliner-1900)*
+
+---
+
 ## Ilya Repin
 #### Unexpected Visitors, 1888
 ![unexpected-visitors](/images/paintings/ilya-repin-unexpected-visitors.jpg)  
