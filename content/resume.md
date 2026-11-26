@@ -20,13 +20,13 @@ Backend engineer with 18+ years of experience. For the last 5 years I have been 
 
 * Built Nubank's in-house IAM system from the ground up, including all core connectors and integrations (LDAP/AD, HR systems, cloud providers, CI/CD), replacing the previous internal system for all internal access management.
 * Built a full stack access request platform on top of the IAM system: access requests for any grouping (team, product, role, custom groups), escalation rules to group owners or people managers, and time and criticality rules for approving or rejecting requests. Adoption grew organically team by team, now with ~160 service integrations and ~7M API calls.
-* Created a new in-house authentication protocol based on macaroons (tokens that authorize actions in a decentralized way, with caveats), offering proof-of-possession security comparable to mTLS while being much simpler to integrate, replacing a previous credential setup based on mTLS and JWT.
+* Created a new in-house authentication protocol based on macaroons (tokens that authorize actions in a decentralized way, with caveats), offering proof-of-possession security comparable to mTLS while being much simpler to integrate, replacing a previous credential setup based on mTLS and JWT. Implemented end to end across Clojure backend, TypeScript web and Dart mobile clients.
 * Driving the staged rollout of this protocol over the last 2 years with zero downtime, currently expanding it towards the full customer base: ramping up the rollout percentage while monitoring key metrics for user impact, holding the rollout to fix and reevaluate whenever a regression shows up. The service already handles hundreds of millions of token emissions per day, on track for billions at full scale.
 * Mentored ~4 engineers and drove the platform adoption across teams.
 
 **TECHNICAL SKILLS**
 
-* Languages: Clojure, Rust, C/C++, Zig, Lua, Fennel, TypeScript/JavaScript, Node.js, C#, PHP
+* Languages: Clojure, Rust, C/C++, Zig, Lua, Fennel, TypeScript/JavaScript, Node.js, Dart, C#, PHP
 * Security & Identity: IAM/IGA, authentication and authorization protocols, macaroons, cryptography
 * Distributed systems: Kafka, microservices (Finagle, hexagonal architecture), event-driven design, Kubernetes, Prometheus
 * Data: Datomic, XTDB/Crux, PostgreSQL, MySQL, MSSQL, SQLite, DynamoDB, MongoDB, Redis
@@ -39,7 +39,7 @@ Backend engineer with 18+ years of experience. For the last 5 years I have been 
 **Nubank - Senior Software Engineer, Cryptography & Identity Team** - Jul/2022 to present
 *Rolling out a new authentication protocol to the full customer base, 2+ years of progressive migration with zero downtime.*
 
-* Designed and developed a new in-house authentication protocol based on macaroons, replacing a previous credential setup based on mTLS and JWT that made web integrations and multi-account usage hard. The new protocol offers proof-of-possession security comparable to mTLS while being much simpler to integrate going forward.
+* Designed and developed a new in-house authentication protocol based on macaroons, replacing a previous credential setup based on mTLS and JWT that made web integrations and multi-account usage hard. The new protocol offers proof-of-possession security comparable to mTLS while being much simpler to integrate going forward, and was implemented across the whole stack: Clojure on the backend, TypeScript on the web and Dart on mobile.
 * Driving a staged, zero-downtime rollout of this protocol to the full customer base (100M+ customers) over the last 2 years, still in progress: ramping up the rollout percentage while monitoring key metrics for user impact, holding the rollout to fix and reevaluate whenever a regression or new pattern shows up. The service already handles hundreds of millions of token emissions per day.
 * Built the company-wide IAM system from the ground up, including all core integrations and connectors (HR, cloud, CI/CD), replacing the previous solution and becoming the source of truth for internal identity and access.
 * Built a full stack access request platform on top of the IAM system: access requests for any grouping (team, product, role, custom groups), escalation chains to group owners or people managers, and rules for criticality and time to accept/reject. Adoption grew organically: the team documented the integrations and showed engineers the data the platform provides, and it now handles ~7M API calls with ~160 service integrations.
