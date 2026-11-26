@@ -4,144 +4,94 @@ date: 2021-11-09T18:24:00Z
 slug: resume
 ---
 
-**RAFAEL DELBONI**
---------------------------
-**Software Developer**  
-Brazilian, GMT-3  
-São Paulo - Brasil  
-rafael@delboni.cc  
-[http://rafael.delboni.cc](http://rafael.delboni.cc) | [https://github.com/rafaeldelboni](https://github.com/RafaelDelboni)
+# RAFAEL DELBONI
 
-**TECHNICAL EXPERIENCE**
-------------------------
-* Almost twenty years of experience on development and software related projects.
-* Five years working on security systems, from creating IDM/IGA in-house solutions to developing a whole new authentication protocol based on Macaroons.
-* Experience with Agile development and Scrum practices: pair programming, test driven development, continuous integration and retrospection.
-* Mapping and definition of functional processes directly with customers and partners.
-* Skills: Clojure, Fennel, C/Cpp, Lua, Rust, NodeJs, Javascript/Typescript, C# and PHP.
-* Databases: Datomic, XTDB, MySQL, Microsoft SQL Server (MSSQL), PostgresSQL, SQLite, MongoDB, Redis and a variety of ORM's like Knex and Nhibernate.
-* Development tools: GIT, VIM, Tmux, Docker, Pulumi, Kubernetes, Github Actions.
-* Test: State-flow, Midje, Jest, Chimp, Mocha, Chai, WebDriverIO, XUnit, Moq and FluentAssertions.
+**Senior Software Engineer (Backend, Distributed Systems & Security)**
+Brazilian, GMT-3, remote-first, São Paulo, Brazil
+[rafael@delboni.cc](mailto:rafael@delboni.cc) - [rafael.delboni.cc](http://rafael.delboni.cc) - [github.com/rafaeldelboni](https://github.com/rafaeldelboni) - [linkedin.com/in/rafaeldelboni](https://linkedin.com/in/rafaeldelboni)
 
-**PERSONAL PROJECTS**
----------------------
-* **[stabilis](https://rafael.delboni.cc/stabilis/)**  static site generator written in zig, markdown in, static HTML out, no backend  _[source](https://github.com/rafaeldelboni/stabilis)_  
-* **[docs.clj.codes](https://docs.clj.codes/)** A modern clojuredocs.org reimplementation. _[source](https://github.com/clj-codes/docs)_
-* **[6502 Emulator](https://github.com/nopsteam/6502)** A 6502 Emulator written in pure c _[source](https://github.com/nopsteam/6502)_
-* **[Água Consciente](https://play.google.com/store/apps/details?id=alphadelete.aguaconsciente)** Android App to calculate water volume spent based on time _[source](https://github.com/rafaeldelboni/AguaConsciente)_
-* **[Graphmosphere](https://twitter.com/graphmosphere)** A Twitter bot that create geometric pictures and gifs from static noises _[source](https://github.com/rafaeldelboni/Graphmosphere)_
-* **[KoaJS Api Startup Kit](https://github.com/RafaelDelboni/koa-api-startup-kit)** An well tested KoaJS user login api for bootstraping projects _[source](https://github.com/rafaeldelboni/koa-api-startup-kit)_
-* **[Microservice Boilerplate](https://github.com/parenthesin/microservice-boilerplate)** Clojure Microservice Boilerplate: Components, Reitit, Pedestal, Schema, Postgresql and tests
-* **[cajus-nvim](https://github.com/rafaeldelboni/cajus-nvim)** Basic config to transform your NVIM in a powerful Clojure IDE using Fennel, clojure-lsp and Conjure.
-* **[Nota](rafael.delboni.cc/nota/)** Static Markdown blog/site using Fulcro & Pathom with no backend _[source](https://github.com/rafaeldelboni/nota)_
-* **[Phaser Grave](http://phaser-grave.herokuapp.com/)** A PhaserJS clone of the game Grave _[source](https://github.com/RafaelDelboni/phaser-grave)_
-* **[Semantic Messages Api](http://gh-commits-category.herokuapp.com/)** Api that consolidates semantic commit messages in github per user _[source](https://github.com/rafaeldelboni/gh-commits-category)_
-* **Super Dice Roll** _[Discord](https://discord.com/api/oauth2/authorize?client_id=861964097700757534&permissions=2148005952&scope=bot%20applications.commands)_ and _[Telegram](https://telegram.me/SuperDiceRoll_bot)_ bot that roll dices using using commands like /roll 4d6+4. _[source](https://github.com/rafaeldelboni/super-dice-roll-clj)_
+---
 
-**ACADEMIC BACKGROUND**
------------------------
-* **Master Class Digital Acceleration**, Hyper Island, completed (November/2015)
-* **Bachelor of Computer Information Systems**, Fundação Santo André, completed (December/2010)
-* **Mechatronics Technician**, Instituto Pentágono de Ensino, completed (December/2005)
+**SUMMARY**
 
-**LANGUAGES**
--------------
-* Portuguese
-* English
+Backend engineer with 18+ years of experience. For the last 5 years I have been working with identity, authorization and cryptography at Nubank (100+ million customers). I built an IAM system in-house, an access request platform on top of it, and a new authentication protocol based on macaroons, now being rolled out to the full customer base with zero downtime. Comfortable with distributed microservices, event streaming and infrastructure as code. Several years working fully remote (Nubank, 180s), plus one year working on-site abroad in Amsterdam (2017-2018).
+
+**HIGHLIGHTS**
+
+* Built Nubank's in-house IAM system from the ground up, including all core connectors and integrations (LDAP/AD, HR systems, cloud providers, CI/CD), replacing the previous internal system for all internal access management.
+* Built a full stack access request platform on top of the IAM system: access requests for any grouping (team, product, role, custom groups), escalation rules to group owners or people managers, and time and criticality rules for approving or rejecting requests. Adoption grew organically team by team, now with ~160 service integrations and ~7M API calls.
+* Created a new in-house authentication protocol based on macaroons (tokens that authorize actions in a decentralized way, with caveats), offering proof-of-possession security comparable to mTLS while being much simpler to integrate, replacing a previous credential setup based on mTLS and JWT.
+* Driving the staged rollout of this protocol over the last 2 years with zero downtime, currently expanding it towards the full customer base: ramping up the rollout percentage while monitoring key metrics for user impact, holding the rollout to fix and reevaluate whenever a regression shows up. The service already handles hundreds of millions of token emissions per day, on track for billions at full scale.
+* Mentored ~4 engineers and drove the platform adoption across teams.
+
+**TECHNICAL SKILLS**
+
+* Languages: Clojure, Rust, C/C++, Zig, Lua, Fennel, TypeScript/JavaScript, Node.js, C#, PHP
+* Security & Identity: IAM/IGA, authentication and authorization protocols, macaroons, cryptography
+* Distributed systems: Kafka, microservices (Finagle, hexagonal architecture), event-driven design, Kubernetes, Prometheus
+* Data: Datomic, XTDB/Crux, PostgreSQL, MySQL, MSSQL, SQLite, DynamoDB, MongoDB, Redis
+* Infrastructure & tooling: AWS, Pulumi (IaC), Docker, Kubernetes, Tekton/GitHub Actions, Git, Vim/tmux
+
+---
 
 **PROFESSIONAL EXPERIENCE**
----------------------------
-* **Nubank - Software Engineer - Jul/2022 to (current)**  
-  Member of the Cryptography Team, contributing to the design and development of a cutting-edge token system built on the macaroons protocol. Expertise includes architecting secure, scalable solutions and maintaining core libraries to streamline and optimize cryptographic operations, ensuring robust data protection and seamless integration across platforms.  
-  Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
-  High throughput jobs and inter-service communication using Kafka;  
-  Storing data in Datomic and DynamoDB;  
-  Monitoring and observability with Prometheus and running as much as possible in Kubernetes;  
-  Continuous Integration and Deployment into AWS with tekton;
 
-* **180s - Software Engineer - May/2021 to Jun/2022**  
-  Horizontally scalable micro-services written mostly in Clojure leveraging upon functional programming techniques and hexagonal architecture;  
-  High throughput jobs and inter-service communication using Kafka;  
-  Storing data in PostgreSQL, CruxDB & Datomic and DynamoDB;  
-  Monitoring and observability and running as much as possible in Kubernetes;  
-  Continuous Integration and Deployment into AWS;  
-  IAC with Pulumi in multiple AWS accounts;
+**Nubank - Senior Software Engineer, Cryptography & Identity Team** - Jul/2022 to present
+*Rolling out a new authentication protocol to the full customer base, 2+ years of progressive migration with zero downtime.*
 
-* **Nubank - Software Engineer - May/2019 to May/2021**  
-  Horizontally scalable micro-services written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture;  
-  High throughput jobs and inter-service communication using Kafka;  
-  Storing data in Datomic and DynamoDB;  
-  Monitoring and observability with Prometheus and running as much as possible in Kubernetes;  
-  Continuous Integration and Deployment into AWS;
+* Designed and developed a new in-house authentication protocol based on macaroons, replacing a previous credential setup based on mTLS and JWT that made web integrations and multi-account usage hard. The new protocol offers proof-of-possession security comparable to mTLS while being much simpler to integrate going forward.
+* Driving a staged, zero-downtime rollout of this protocol to the full customer base (100M+ customers) over the last 2 years, still in progress: ramping up the rollout percentage while monitoring key metrics for user impact, holding the rollout to fix and reevaluate whenever a regression or new pattern shows up. The service already handles hundreds of millions of token emissions per day.
+* Built the company-wide IAM system from the ground up, including all core integrations and connectors (HR, cloud, CI/CD), replacing the previous solution and becoming the source of truth for internal identity and access.
+* Built a full stack access request platform on top of the IAM system: access requests for any grouping (team, product, role, custom groups), escalation chains to group owners or people managers, and rules for criticality and time to accept/reject. Adoption grew organically: the team documented the integrations and showed engineers the data the platform provides, and it now handles ~7M API calls with ~160 service integrations.
+* Horizontally scalable microservices written in Clojure (Finagle), high throughput communication with Kafka, storage in Datomic and DynamoDB, observability with Prometheus, CI/CD on AWS with Tekton, running on Kubernetes.
 
-* **Lambda3 - Full-Stack Developer - Jun/2018 to May/2019**  
-  Market leader company using Agile development and SCRUM methodology;  
-  Development and support of asynchronous systems for processing message queues used by SMS and payment services;  
-  Techs: .Net/Asp.Net Core, Mysql Database + Entity, RabbitMQ;  
-  Unit test and integration: XUnit, Moq and FluentAssertions;  
+**180s - Software Engineer** - May/2021 to Jun/2022
 
-* **Deskbookers (The Netherlands) - Full-Stack Developer - May/2017 to Jun/2018**  
-  Agile environment in a European market leader company  
-  Development and support an e-commerce experience for booking meeting rooms used in many European countries;  
-  Development and support for administrative back-office system for meeting rooms venues;  
-  Backend: PHP, NodeJs, PostgresSQL + Knex, Redis, ElasticSearch CI/CD process using AWS and Bash Scripts;  
-  Frontend: React, Redux, Webpack, Javascript ES6 and Jquery;  
-  Unit test and integration: Jest and Enzime;  
+* Horizontally scalable Clojure microservices (functional programming, hexagonal architecture); communication and high throughput jobs with Kafka; PostgreSQL, Crux, Datomic and DynamoDB; observability on Kubernetes; CI/CD on AWS; infrastructure as code with Pulumi across multiple AWS accounts.
 
-* **Lambda3 - Full-Stack Developer - August/2016 to May/2017**  
-  Market leader company using Agile development and SCRUM methodology;  
-  Development and support for administrative and financial systems;  
-  Backend: .Net/Asp.Net Core, MSSQL Database + NHibernate, CI/CD process using VSTS and Azure;  
-  Frontend: NPM, Gulp, Javascript ES6 and Jquery;  
-  Unit test and integration: XUnit, Moq and FluentAssertions;  
-  Acceptance tests: NodeJs, Chimp, Mocha, Chai and WebDriverIO.  
+**Nubank - Software Engineer** - May/2019 to May/2021
 
-* **Itaú Unibanco - System Analyst - October/2011 to August/2016**  
-  Expertise in developing and maintaining Private Banking systems;  
-  Development of tools to interact Business Intelligence with account management;  
-  Developing and maintaining systems to support the bankers from Itaú Unibanco’s Private Banking;  
-  Development of web services to process transactions and share business data;  
-  Development of web applications to process internal back office data;  
-  Deal with international projects (Swiss and Miami);  
+* Horizontally scalable microservices in Clojure (Finagle) with functional programming and hexagonal architecture; high throughput jobs and communication with Kafka; Datomic and DynamoDB; Prometheus observability; Kubernetes, CI/CD on AWS.
 
-* **Canon do Brasil - Solution Analyst - February/2007 to October/2011**  
-  Development of management reports in tools such as .Net Web Development with Reporting Services and through access to databases MSSQL 2000 to 2008;  
-  Responsible for implementation, customization and training systems in Canon's customers;  
-  Responsible for communication channel in English with 3rd level support Canon Latin America located in Miami;  
-  Support 2nd level (EDM/ECM, VDP and Accountant softwares);  
-  Development of integrations (Microsoft .Net C#) systems between customer’s environment and Canon’s softwares;  
-  1st level support of Canon products (Printers, Fax, Scanners and Software);  
-  Provide Technical Support and guindance to customers, manage Linux servers hosting PHP + Postgress web systems.  
+**Lambda3 - Full-Stack Developer** - Jun/2018 to May/2019
 
-**AWARDS**
-----------
-* **WMS Chalenge** - Itaú - 2015  
-  "The WMS Challenge" is a challenge of innovation, created to propose strategic issues for Itaú, in the scope of WMS, which encourages our employees to submit ideas and innovative solutions.  
-  This challenge is annual, and each year a different theme is proposed. Employees need to organize themselves into groups and register the ideas that they judge to solve the issue addressed in the theme of that year.  
-  The ideas then pass through a first filter and start to be developed together with the area of innovation, the process by which participants learn and apply the methodology of Design Thinking in their own ideas.
+* Asynchronous message queue processing systems for SMS and payment services; .NET/ASP.NET Core, MySQL + Entity, RabbitMQ; unit and integration testing with XUnit, Moq, FluentAssertions.
 
-* **PRAD and Y Axis** - Itaú - 2012, 2013 and 2015  
-  Award for high performance, recognition for technical professionals who have contributed differently, with innovative thinking, good customer relations and reaching points beyond its expected annual target.  
-  The highlight Y axis is an assessment by all co-workers which is assessed the relationship and teamwork.
+**Deskbookers (Netherlands) - Full-Stack Developer** - May/2017 to Jun/2018
 
-* **Technical Team Highlight** - Canon - 2010  
-  Annual prize which includes best employees in each department by recognizing the contribution, dedication and highlighting performance.
+* Multi-country, multi-language e-commerce platform for booking meeting rooms, plus the venues back-office; PHP and Node.js backends (PostgreSQL + Knex, Redis, Elasticsearch), React/Redux frontend, CI/CD on AWS.
 
-* **The Canon Americas Spirit** - Canon - 2009  
-  Program recognition of employee contributions that demonstrates outstanding efforts in customer satisfaction, innovation, creativity, community work, productivity, morale building, quality and profitability.  
-  On its own initiative I undertook to create a development process and conversion of variable data forms for clients such Braspress (300 installed equipment) and Johnson Controls (200 equipment installed).  
-  For this, researched and developed a tool which today can also be used for the creation and conversion of other forms. Documented throughout the development process and taught training for my team.
+**Lambda3 - Full-Stack Developer** - Aug/2016 to May/2017
 
-**INTERNATIONAL EXPERIENCE**
-----------------------------
-* **Fullstack Developer:** Deskbookers - Netherlands - Amsterdam - May/2017  
-  One year period. Worked as fullstack developer in a challenging startup environment supporting and developing a multi country/language e-commerce for booking meetings rooms.
+* Administrative and financial systems; .NET/ASP.NET Core + MSSQL (NHibernate); acceptance testing with Chimp/Mocha/WebDriverIO; CI/CD on Azure/VSTS.
 
-* **Software Deploy:** Itaú Private Bank Suisse - Swiss - Zurich - December/2015  
-  One week period. System deploy, data migration and training for a system developed for the Itaú’s office in Switzerland.
+**Itaú Unibanco - System Analyst** - Oct/2011 to Aug/2016
 
-* **Exchanges:** KGIC - King George International College - Canada - Vancouver - April/2013  
-  A one month period. English course with home stay.
+* Private Banking systems: BI and account management tooling, transaction web services, internal back-office web applications; international projects (Switzerland and Miami).
+* Awarded the "Y Axis" peer-recognition prize (2012, 2013, 2015) and the WMS innovation challenge (2015).
 
-* **The EFI:** Fiery Tech @ Connect - United States - Las Vegas - February/2011  
-  Advanced training conference for analysts and experts to help in identifying new business opportunities, offering customers the right solutions according to their needs and promoting its customers tools that will justify their investment in technologies EFI.
+**Canon do Brasil - Solution Analyst** - Feb/2007 to Oct/2011
+
+* Integrations between customers systems and Canon software (.NET/C#), reporting services, 2nd and 3rd level support and English-language support for Canon Latin America (Miami); managed Linux hosting (PHP + PostgreSQL).
+
+---
+
+**PERSONAL PROJECTS** *(selected, full list at [rafael.delboni.cc](http://rafael.delboni.cc))*
+
+* **[stabilis](https://rafael.delboni.cc/stabilis/)** - static site generator written in Zig, markdown in, static HTML out, no backend. _[source](https://github.com/rafaeldelboni/stabilis)_
+* **[docs.clj.codes](https://docs.clj.codes/)** - a modern clojuredocs.org reimplementation. _[source](https://github.com/clj-codes/docs)_
+* **[cajus-nvim](https://github.com/rafaeldelboni/cajus-nvim)** - turns Neovim into a full Clojure IDE using Fennel, clojure-lsp and Conjure.
+* **[microservice-boilerplate](https://github.com/parenthesin/microservice-boilerplate)** - Clojure microservice boilerplate: components, Reitit, Pedestal, PostgreSQL, tests. _[source](https://github.com/parenthesin/microservice-boilerplate)_
+* **[6502 Emulator](https://github.com/nopsteam/6502)** - a 6502 emulator written in pure C.
+* **[Feles Tales](https://rafaeldelboni.itch.io/feles-tales)** - 3D game built with Squint, Three.js, Rapier and Recast. / **[Zero to Hero](https://rafaeldelboni.itch.io/zero-to-hero)** - 2D puzzle-platformer with ClojureScript + Phaser.
+
+**ACADEMIC BACKGROUND**
+
+* Bachelor of Computer Information Systems, Fundação Santo André (2010)
+* Master Class Digital Acceleration, Hyper Island (2015)
+* Mechatronics Technician, Instituto Pentágono (2005)
+
+**LANGUAGES & INTERNATIONAL EXPERIENCE**
+
+* Portuguese (native), English (professional working proficiency, interviewed and worked in English)
+* Worked abroad: Amsterdam, Netherlands (1 year, 2017-2018); Zürich, Switzerland (system deploy and training, 2015)

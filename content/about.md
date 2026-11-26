@@ -20,14 +20,14 @@ menus: [main]
 [paintings](/paintings)
 
 ### experiences
-~~solutions analyst at **[canon do brasil](http://www.canon.com.br/)**~~  
-~~systems analyst / developer at **[itaú](https://www.itau.com.br/)**~~  
-~~fullstack developer at **[lambda3](https://www.lambda3.com.br/)**~~  
-~~backend developer at **[deskbookers](https://www.deskbookers.com/)**~~  
-~~fullstack developer at **[lambda3](https://www.lambda3.com.br/)**~~  
-~~software engineer at **[nubank](https://www.nubank.com.br/)**~~  
-~~software engineer at **[180s](https://www.180s.com.br/)**~~  
-**software engineer at [nubank](https://www.nubank.com.br/)**  
+solutions analyst at **[canon do brasil](http://www.canon.com.br/)** (2007-2011)  
+systems analyst / developer at **[itaú](https://www.itau.com.br/)** (2011-2016)  
+fullstack developer at **[lambda3](https://www.lambda3.com.br/)** (2016-2017)  
+backend developer at **[deskbookers](https://www.deskbookers.com/)**, amsterdam (2017-2018)  
+fullstack developer at **[lambda3](https://www.lambda3.com.br/)** (2018-2019)  
+software engineer at **[nubank](https://www.nubank.com.br/)** (2019-2021)  
+software engineer at **[180s](https://www.180s.com.br/)** (2021-2022)  
+**software engineer (cryptography & identity) at [nubank](https://www.nubank.com.br/)** (2022-now): built the in-house IAM system, an access request platform on top of it, and a new authn protocol based on macaroons, now rolling out to the full customer base.  
 
 ### projects
 * **[stabilis](https://rafael.delboni.cc/stabilis/)**  static site generator written in zig, markdown in, static HTML out, no backend  _[source](https://github.com/rafaeldelboni/stabilis)_  
